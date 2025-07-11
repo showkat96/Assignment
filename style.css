@@ -15,11 +15,21 @@ nav{
 nav ul li{
     list-style: none;
 }
+/* header */
+.header{
+    background-image: url(../Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+    padding: 200;
+}
+
  /* shared style */
 .text-primary{
     color: #4E47FF;
     font-style: bold;
     font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
  .btn-primary{
     background-color: blue;
@@ -27,4 +37,30 @@ nav ul li{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+   
+ }
+
+ /* banner style */
+ .banner-title{
+    font-size: 65px ;
+    font-weight: bold;
+    color: #252432;
+ }
+ .banner{
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding to center content vertically */
+    margin-top: 50px; /* Adjust to move content down from the navbar */
+}
+ }
+ .banner-content{
+    max-width: 905px;
+    max-height: 237px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom:none; 
  }
